@@ -1,0 +1,19 @@
+{
+    "broker": "fyers",
+    "fyers": {
+        "redirect_uri": "http://127.0.0.1:8080",
+        "secret_key": "NFGDFNYRG6",
+        "client_id": "VBYFHBIOSI-100",
+        "grant_type": "authorization_code",
+        "response_type": "code",
+        "state": "sample"
+    },
+    "strategy": {
+        "symbol": "NSE:BANKNIFTY24AUG48000CE",
+        "qty": 75,
+        "product_type": "INTRADAY",
+        "order_type": 2,
+        "target_pnl": 1000,
+        "stop_loss_pnl": -1000
+    }
+}
